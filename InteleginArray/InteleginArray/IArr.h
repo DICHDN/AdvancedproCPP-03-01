@@ -45,9 +45,9 @@ public:
 		this->actual_size = a;
 		
 	}
-	int get_element(int arr);
+	int get_element(unsigned int arr);
 	
-	int* add_element(int new_element);
+	int* add_element(unsigned int new_element);
 	
 	~smart_array()
 	{
