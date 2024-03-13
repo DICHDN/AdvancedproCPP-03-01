@@ -38,13 +38,8 @@ protected:
 	int actual_size=0;
 	int index = 0;
 public:
-	smart_array(int a)
-	{
-		int* arr = new int[a];
-		this->array1 = arr;
-		this->actual_size = a;
-		
-	}
+	smart_array(int a);
+	
 	int get_element(unsigned int arr);
 	
 	int* add_element(unsigned int new_element);
